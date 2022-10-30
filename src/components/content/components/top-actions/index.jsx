@@ -5,6 +5,7 @@ const TopActions = ({ categories, onSelectCategory }) => (
         <button
           className="bg-white rounded-md px-2 py-2"
           onClick={() => onSelectCategory(category.id)}
+          key={category.id}
         >
           <img src={category.icon} height={25} width={25} />
         </button>

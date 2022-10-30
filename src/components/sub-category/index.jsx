@@ -11,7 +11,10 @@ const SubCategory = ({ label, onBack, items = [], categoryName }) => {
       <h1 className="text-xl font-bold mb-4">{label}</h1>
       <div className="grid laptop:grid-cols-2 grid-cols-3 gap-y-8">
         {items?.map((item) => (
-          <div className="flex flex-col items-center cursor-pointer text-sm">
+          <div
+            key={item.id}
+            className="flex flex-col items-center cursor-pointer text-sm"
+          >
             <Image src={item.img} />
             <div>{item.name}</div>
           </div>

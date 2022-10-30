@@ -29,6 +29,7 @@ const Category = ({ categoryId, withCloseIcon = false, onCloseIconClick }) => {
               <div
                 className="bg-gray-50 rounded-md my-4 p-2 w-full flex justify-between items-center cursor-pointer"
                 onClick={() => onSelectSubCategory(item.id)}
+                key={item.id}
               >
                 <span>{item.name}</span>
                 <img src={arrowLeft} className="rotate-180 w-5 h-5" />
