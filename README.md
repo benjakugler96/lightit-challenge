@@ -4,51 +4,57 @@ Lightit Challenge
 
 ## Demo link:
 
-Access my site at [google.com](https://google.com)
+Access my site at [lightit-challenge.vercel.app/](https://lightit-challenge.vercel.app/)
 
 ## Table of Content:
 
-- [About The App](#about-the-app)
+- [Considerations](#considerations)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Approach](#approach)
-- [Status](#status)
-- [Credits](#credits)
+- [Project Structure](#project-structure)
 - [License](#license)
 
-## About The App
+## Considerations
 
-Lightit Challenge
+This application was built to be responsive, using 425px, 640px and 1024px view widths.
+
+Changed the structure of the data provided. Included name and ids.
+
+```js
+// example of "aberturas":
+{
+  name: "Aberturas",
+  items: [{ id: "puertas", name: "Puertas", items: [...] }]
+}
+```
+
+Using msw, I added a mocked server to run with the application so we can play around with the api calls during development. Server is still active in production.
 
 ## Screenshots
 
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
+### Desktop
+
+`![Desktop Home](./public/desktop-home.png)`
+`![Desktop Category](./public/desktop-category.png)`
+`![Desktop Sub Category](./public/desktop-sub-category.png)`
+
+### Mobile
+
+`![Mobile Home](./public/mobile-home.png)`
+`![Mobile Category](./public/mobile-category.png)`
+`![Mobile Sub Category](./public/mobile-sub-category.png)`
 
 ## Technologies
 
-I used `html`, `css`, ...
+For this project I have used:
 
-## Setup
-
-- download or clone the repository
-- run `npm install`
-- ...
-
-## Approach
-
-I adopted the `BEM` naming style for my css class names and ...
-
-## Status
-
-[name of project] is still in progress. `Version 2` will be out soon.
-
-## Credits
-
-List of contriubutors:
-
-- [John Doe](johndoe.com)
+- [React](https://es.reactjs.org/)
+- [Vitejs](https://vitejs.dev/)
+- [Tailwind](https://tailwindcss.com/)
+- [MSW](https://mswjs.io/docs/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## License
 
-MIT license @ [author](author.com)
+MIT license
