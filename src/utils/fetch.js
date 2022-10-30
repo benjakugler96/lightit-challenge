@@ -9,6 +9,7 @@ export const fetchApi = async (url) => {
     const data = await response.json();
     return data;
   } catch (err) {
+    console.log("hola err", err);
     throw new Error();
   }
 };

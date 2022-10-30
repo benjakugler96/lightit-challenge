@@ -9,6 +9,7 @@ const ItemList = ({ items, onClick, selectedItem }) => (
         key={item.id}
         onClick={() => onClick(item.id)}
         isSelected={selectedItem === item.id}
+        id={item.id}
       />
     ))}
   </div>

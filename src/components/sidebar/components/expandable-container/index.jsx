@@ -1,7 +1,7 @@
 import arrowLeftIcon from "../../../../assets/images/arrow-left.png";
 
 const ExpandableContainer = ({ isOpen, children, onClick }) => (
-  <div className="relative h-full">
+  <div className="relative h-full" data-testid="expandable-container">
     <div
       className={`bg-gray-100 h-full duration-300 overflow-hidden ${
         isOpen ? "laptop:w-72 w-96" : "w-0"

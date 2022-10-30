@@ -8,7 +8,7 @@ const Category = ({ categoryId, withCloseIcon = false, onCloseIconClick }) => {
     useCategory(categoryId);
 
   return (
-    <div className="p-5">
+    <div className="p-5" data-testid="category">
       {subCategory ? (
         <SubCategory
           label={subCategory.name}
