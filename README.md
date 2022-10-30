@@ -35,15 +35,15 @@ Using msw, I added a mocked server to run with the application so we can play ar
 
 ### Desktop
 
-`![Desktop Home](./public/desktop-home.png)`
-`![Desktop Category](./public/desktop-category.png)`
-`![Desktop Sub Category](./public/desktop-sub-category.png)`
+![Desktop Home](/public/desktop-home.png)
+![Desktop Category](/public/desktop-category.png)
+![Desktop Sub Category](/public/desktop-sub-category.png)
 
 ### Mobile
 
-`![Mobile Home](./public/mobile-home.png)`
-`![Mobile Category](./public/mobile-category.png)`
-`![Mobile Sub Category](./public/mobile-sub-category.png)`
+<img src="public/mobile-home.png" width="200" />
+<img src="public/mobile-category.png" width="200" />
+<img src="public/mobile-sub-category.png" width="200" />
 
 ## Technologies
 
