@@ -40,6 +40,7 @@ export default function Dropdown() {
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
+                  onClick={() => console.log("Guardar y continuar")}
                 >
                   Guardar y continuar
                 </a>
@@ -54,6 +55,7 @@ export default function Dropdown() {
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
+                  onClick={() => console.log("Guardar y salir")}
                 >
                   Guardar y salir
                 </a>
@@ -61,15 +63,16 @@ export default function Dropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <button
-                  type="submit"
+                <a
+                  href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block w-full px-4 py-2 text-left text-sm"
+                    "block px-4 py-2 text-sm"
                   )}
+                  onClick={() => console.log("Salir sin guardar")}
                 >
                   Salir sin guardar
-                </button>
+                </a>
               )}
             </Menu.Item>
           </div>
