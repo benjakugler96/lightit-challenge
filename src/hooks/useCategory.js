@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from "react";
-import { fetcher } from "../utils/fetcher";
+import { fetch as fetchApi } from "../utils/fetch";
 
 export const useCategory = (categoryId) => {
   const [category, setCategory] = useState(null);
@@ -7,10 +7,9 @@ export const useCategory = (categoryId) => {
 
   useEffect(() => {
     if (categoryId && categoryId !== category?.id) {
-      console.log("hola fetching api", categoryId, category?.id);
       // Reset sub category state if we click in a main category
       if (subCategory) setSubCategory(null);
-      fetcher(`/${categoryId}`).then(setCategory);
+      fetchApi(`/${categoryId}`).then(setCategory);
     }
   }, [categoryId]);
 

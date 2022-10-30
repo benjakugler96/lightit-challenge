@@ -1,10 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
-import endingsData from "../mocks/endings.json";
 import endingsIcon from "../assets/images/endings.png";
-import equipmentData from "../mocks/equipment.json";
 import equipmentIcon from "../assets/images/equipment.png";
 import openingIcon from "../assets/images/opening.png";
-import openingsData from "../mocks/openings.json";
 
 const categories = [
   {
