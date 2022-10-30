@@ -1,10 +1,8 @@
-# Project Title
-
-Lightit Challenge
+# Lightit Challenge
 
 ## Demo link:
 
-Access my site at [lightit-challenge.vercel.app/](https://lightit-challenge.vercel.app/)
+[lightit-challenge.vercel.app/](https://lightit-challenge.vercel.app/)
 
 ## Table of Content:
 
@@ -12,7 +10,6 @@ Access my site at [lightit-challenge.vercel.app/](https://lightit-challenge.verc
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Project Structure](#project-structure)
 - [License](#license)
 
 ## Considerations
