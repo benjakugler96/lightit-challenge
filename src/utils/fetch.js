@@ -1,10 +1,9 @@
 const BASE_PATH =
   process.env.NODE_ENV === "development"
     ? "http://localhost:5173"
-    : "http://localhost:5173";
+    : "https://lightit-challenge.vercel.app/";
 
 export const fetchApi = async (url) => {
-  console.log("hola url", url);
   try {
     const response = await fetch(`${BASE_PATH}${url}`);
     const data = await response.json();
