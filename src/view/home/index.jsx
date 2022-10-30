@@ -1,9 +1,12 @@
-import { Header, Content } from "../../components";
+import { Header, Content, Sidebar } from "../../components";
 
 const Home = () => (
-  <div>
+  <div className="h-screen flex flex-col">
     <Header />
-    <Content />
+    <div className="flex flex-1">
+      <Sidebar />
+      <Content />
+    </div>
   </div>
 );
 
