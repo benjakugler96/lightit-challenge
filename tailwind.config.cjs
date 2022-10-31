@@ -12,7 +12,8 @@ module.exports = {
       },
     },
     screens: {
-      mobile: { max: "425px" },
+      mobile: { max: "430px" },
+      // 430 for iphone 13 pro max..
       // => @media (max-width: 425px) { ... }
 
       tablet: { max: "640px" },
